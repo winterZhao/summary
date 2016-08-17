@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Introduction · GitBook</title>
+        <title>em和rem · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="c1.md" />
+    <link rel="next" href="emAndRem.html" />
     
+    
+    <link rel="prev" href="center.html" />
     
 
     </head>
@@ -87,7 +89,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -172,7 +174,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2" data-path="emAndRem.html">
+        <li class="chapter active" data-level="1.3.2" data-path="emAndRem.html">
             
                 <a href="emAndRem.html">
             
@@ -185,7 +187,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.3" data-path="emAndRem.html">
+        <li class="chapter active" data-level="1.3.3" data-path="emAndRem.html">
             
                 <a href="emAndRem.html">
             
@@ -355,7 +357,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introduction</a>
+        <a href="." >em和rem</a>
     </h1>
 </div>
 
@@ -370,17 +372,51 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>my summary of notes</p>
-<ol>
-<li><p>&#x514B;&#x9686;&#x672C;&#x9879;&#x76EE;;</p>
-</li>
-<li><p><code>npm install gitbook -g</code>;</p>
-</li>
-<li><p><code>gitbook serve -p 8080</code></p>
-</li>
-<li><p>&#x6D4F;&#x89C8;&#x5668; url <code>localhost:4000</code>;</p>
-</li>
-</ol>
+                                <p>&lt;!DOCTYPE html&gt;</p>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        html{font-size:100%;}
+        body{font-size:1em;}
+        #wrap{float:left;width:10em;background:yellowgreen;}
+        #wrap h1{font-size:1.125em;line-height:1.778em;}
+        #wrap p{font-size:0.75em;line-height:1.5em;}
+
+        #wrap1{margin-left:100px;float:left;width:160px;background:yellowgreen;}
+        #wrap1 h1{font-size:18px;line-height:32px;}
+        #wrap1 p{font-size:12px;line-height:18px;}
+
+        #wrap2{margin-left:100px;float:left;width:10rem;background:yellowgreen;}
+        #wrap2 h1{font-size:1.125rem;line-height:2rem;}
+        #wrap2 p{font-size:0.75rem;line-height:1.125rem;}
+
+
+    </style>
+</head>;
+<body>
+
+<p>em&#x4E3B;&#x8981;&#x662F;&#x9760;font-size&#x4F5C;&#x4E3A;&#x5B50;&#x5143;&#x7D20;&#x4E0E;&#x7236;&#x5143;&#x7D20;&#x7684;&#x6C9F;&#x901A;&#x6865;&#x6881;&#xFF0C;&#x5982;&#x679C;&#x5B50;&#x5143;&#x7D20;&#x8BBE;&#x7F6E;&#x4E86;font-size&#xFF0C;&#x5219;&#x5B50;&#x5143;&#x7D20;&#x9AD8;&#x5EA6;&#x5BBD;&#x5EA6;&#x7B49;&#x7684;em&#x7684;&#x53C2;&#x7167;&#x7269;&#x4E3A;&#x5B50;&#x5143;&#x7D20;&#x7684;font-size;&#x5982;&#x679C;&#x6CA1;
+&#x6709;&#x8BBE;&#x7F6E;&#x5219;&#x4E3A;&#x7236;&#x5143;&#x7D20;&#x7684;font-size;&#x517C;&#x5BB9;&#x6027;&#x8F83;&#x597D;;</p>
+<p>rem&#x7684;&#x53C2;&#x7167;&#x7269;&#x6052;&#x4E3A;&#x7236;&#x5143;&#x7D20;&#x7684;font-size;&#x4E0D;&#x652F;&#x6301;ie6-8</p>
+<div id="wrap">
+    <h1 id="hello-world">hello world</h1>
+    <p>hello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello  worldhello worldhello world</p>
+</div>
+
+<div id="wrap1">
+    <h1 id="hello-world">hello world</h1>
+    <p>hello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello world</p>
+</div>
+
+<div id="wrap2">
+    <h1 id="hello-world">hello world</h1>
+    <p>hello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello world</p>
+</div>
+</body>
+</html>
 
                                 
                                 </section>
@@ -408,8 +444,12 @@
 
             
                 
+                <a href="center.html" class="navigation navigation-prev " aria-label="Previous page: 水平居中和垂直居中">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="c1.md" class="navigation navigation-next navigation-unique" aria-label="Next page: HTML">
+                
+                <a href="emAndRem.html" class="navigation navigation-next " aria-label="Next page: em和rem">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -420,7 +460,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"HTML","level":"1.2","depth":1,"path":"c1.md","ref":"c1.md","articles":[{"title":"水平居中和垂直居中","level":"1.2.1","depth":2,"path":"center.md","ref":"center.md","articles":[]},{"title":"第二节","level":"1.2.2","depth":2,"path":"c1s2.md","ref":"c1s2.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"readme.md","mtime":"2016-08-17T12:14:40.917Z","type":"markdown"},"gitbook":{"version":"3.0.0","time":"2016-08-17T12:17:44.849Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"em和rem","level":"1.3.2","depth":2,"next":{"title":"em和rem","level":"1.3.3","depth":2,"path":"emAndRem.md","ref":"emAndRem.md","articles":[]},"previous":{"title":"水平居中和垂直居中","level":"1.3.1","depth":2,"path":"center.md","ref":"center.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"emAndRem.md","mtime":"2016-08-17T10:02:41.731Z","type":"markdown"},"gitbook":{"version":"3.0.0","time":"2016-08-17T12:17:44.849Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
