@@ -6,4 +6,4 @@ my summary of notes
 
 3. `gitbook serve -p 8080`
 
-4. 浏览器url `localhost:4000`;
+4. 浏览器 url `localhost:4000`;
